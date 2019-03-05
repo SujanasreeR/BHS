@@ -16,7 +16,7 @@ public class DBListner implements ServletContextListener {
     	ServletContext ctx = servletContextEvent.getServletContext();
     	String dbURL = "jdbc:mysql://127.0.0.1:3306/BHS";
     	String user = "root";
-    	String pwd = "12345678";
+    	String pwd = "******";//Your Password Here
     	
     	try {
     		Connection connection = DriverManager.getConnection(dbURL, user, pwd);
